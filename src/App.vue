@@ -71,7 +71,7 @@ export default {
       fetch(
         `http://api.openweathermap.org/data/2.5/find?q=${
           this.city
-        }&units=imperial&appid=5cd21286e8e65dca0865ec4c1f65319d`
+        }&units=imperial&appid={{"USE_YOUR_OWN_WEATHERMAPAPI_KEY_IN_HERE}}`
       )
         .then(response => response.json())
         .then(response => {
