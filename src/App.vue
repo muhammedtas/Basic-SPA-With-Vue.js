@@ -62,7 +62,7 @@ export default {
     handleSearch(query) {
       this.gifs = [];
       this.isLoading = true;
-      const url = `http://api.giphy.com/v1/gifs/search?q=${query}&api_key=dc6zaTOxFJmzC`;
+      const url = `http://api.giphy.com/v1/gifs/search?q=${query}&api_key={{"USE_YOUR_OWN_GIPHY_API_KEY_IN_HERE}}`;
       this.doQuery(url);
     },
     getWeather() {
