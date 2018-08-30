@@ -7,8 +7,8 @@ Vue.config.productionTip = false
 
 Vue.use(VueGoogleMaps, {
   load: {
-    // key=API_KEY, // Let lecturer to use his key instead of this. Do not forget it! 
-    key: "AIzaSyAqGoLCEn75lTN7vjPLCBRQ6NzC6BqDUHQ",
+    // Use Your own GoogleMap api key in here! 
+    key: "YOUR_API_KEY",
     libraries: "places"
   }
 });
