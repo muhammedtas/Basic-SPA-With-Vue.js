@@ -1,6 +1,6 @@
 # todo-project
 
-> \"Front End lesson final project\"
+> \"Basic SPA With Vue.js\"
 
 ## Build Setup
 
@@ -8,7 +8,7 @@
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+# serve with hot reload at localhost:8085
 npm run dev
 
 # build for production with minification
