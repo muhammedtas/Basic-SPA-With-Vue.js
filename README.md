@@ -1,6 +1,6 @@
-# todo-project
+# Basic SPA With Vue.js
 
-> \"Basic SPA With Vue.js\"
+> \" todo-app, google map api, weathermap api, giphy api\"
 
 ## Build Setup
 
